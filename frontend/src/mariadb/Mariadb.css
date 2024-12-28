@@ -1,0 +1,49 @@
+/* CSS */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.centered-div {
+    width: 100%;
+    background-color: lightblue; /* Just for visualization */
+}
+input{
+    margin:auto;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 3%;
+}
+h2{
+    align-content: center;
+    text-align: center;
+}
+p{
+    align-items: center;
+    text-align: center;
+}
+table, th, tr, td {
+    font-size: large;
+    border-color: lightblue;
+    border-style: dashed;
+    height: fit-content;
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;   
+    border-radius: 2%; 
+    border-color: black;
+    border-style:solid;
+}

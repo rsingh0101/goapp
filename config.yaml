@@ -1,0 +1,14 @@
+kafka:
+  brokers: "127.0.0.1:9092"
+  clientID: "myClientID"
+  topic: "test_topic"
+  message: "test_message"
+
+database:
+  user: "user"
+  password: "password"
+  host: "127.0.0.1:3306"
+  dbName: "bitnami"
+
+keydb:
+  password: "password"
