@@ -50,16 +50,16 @@ services:
       - 9093:9093
     depends_on:
       - zookeeper
-  keydb:
-   container_name: keydb
-   image: eqalpha/keydb:latest
-   ports: 
-     - 6379:6379
-   environment:
-     - ALLOW_EMPTY_PASSWORD=yes
-     - KEYDB_PASSWORD=password
-   volumes:
-     - keydb_data:/data/dump.rdb
+  # keydb:
+  #  container_name: keydb
+  #  image: eqalpha/keydb:latest
+  #  ports: 
+  #    - 6379:6379
+  #  environment:
+  #    - ALLOW_EMPTY_PASSWORD=yes
+  #    - KEYDB_PASSWORD=password
+  #  volumes:
+  #    - keydb_data:/data/dump.rdb
   goapp:
     container_name: goapp
     image: ratindersingh/goapp:latest
