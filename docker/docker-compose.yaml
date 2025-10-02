@@ -60,6 +60,12 @@ services:
      - KEYDB_PASSWORD=password
    volumes:
      - keydb_data:/data/dump.rdb
+  goapp:
+    container_name: goapp
+    image: ratindersingh/goapp:latest
+    build:
+      context: ../
+      dockerfile: ../
 volumes:
   mariadb_data:
     driver: local
