@@ -65,7 +65,7 @@ services:
     image: ratindersingh/goapp:latest
     build:
       context: ../
-      dockerfile: ../
+      dockerfile: ../Dockerfile
 volumes:
   mariadb_data:
     driver: local
